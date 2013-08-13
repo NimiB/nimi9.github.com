@@ -2,13 +2,13 @@
 <html>
 <head>
 	<title>SUPER BLOG</title>
+	<link rel="stylesheet" type="text/css" href="css/blogstyle.css">
 </head>
 <body>
-<div id="container" style="width:800px">
+<div id="container">
 <header>
 		<img src="images/blog-logo.png" alt="Blog logo">
-		
-		<nav style="text-align:right;">
+		<nav>
 		<a href="about.html">about</a>
 		<a href="archives.html">archives</a>
 		<a href="contact.html">contact</a>
@@ -17,33 +17,26 @@
 </header>
 <hr>
 
-<div style="float:left;width:30%;margin:20px;">
-<ul>
-	<a href="#a1">
-		<li>The quick, brown fox jumps over a lazy dog.</li>
-	</a>
-	<a href="#a2">
-		<li>Jolt my wax bed</li>
-	</a>
-	<a href="#a3">
-		<li>A very bad quack jinx zippy fowls</li>
-	</a>
-	<a href="#a4">
-		<li>Flummoxed by job </li>
-	</a>
-<li>Cozy sphinx waves quart jug of bad milk</li>
-<li>Few quips galvanized box</li>
-<li>Quick brown dogs jump over the lazy fox</li>
-<li>Blowzy red vixens fight</li>
-</ul>
+<div id="sidebar">
+	<ul>
+		<li><a href="#a1">The quick, brown fox jumps over a lazy dog.</a></li>
+		<li><a href="#a2">Jolt my wax bed</a></li>
+		<li><a href="#a3">A very bad quack jinx zippy fowls</a></li>
+		<li><a href="#a4">Flummoxed by job</a></li>
+		<li>Cozy sphinx waves quart jug of bad milk</li>
+		<li>Few quips galvanized box</li>
+		<li>Quick brown dogs jump over the lazy fox</li>
+		<li>Blowzy red vixens fight</li>
+	</ul>
 </div>
 
-<div style="float:left;width:65%;">
+<div id="blogcontent">
 <section>
 	<a id="a1"></a>	
-	<article style="font-size:15px;"><b>Feb 13, 2013</b>
-		<h2 style="font-family:fantasy;">The quick, brown fox jumps over a lazy dog.</h2> 
-		DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. 
+	<article>
+	<p class="datep">Feb 13, 2013</p>
+		<h2>The quick, brown fox jumps over a lazy dog.</h2> 
+		<p>DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. 
 		Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! 
 		Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. 
 		Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. 
@@ -52,13 +45,15 @@
 		Quick, Baz, get my woven flax jodhpurs! “Now fax quiz Jack! “ my brave ghost pled. 
 		Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. 
 		Cozy sphinx waves quart jug of bad milk.
+		</p>
 
 	</article>
 	<br>
 	
 	<a id="a2"></a>
-	<article style="font-size:15px;"><b>Feb 18, 2013</b>
-		<h2 style="font-family:fantasy;">Jolt my wax bed</h2>
+	<article>
+	<p class="datep">Feb 18, 2013</p>
+		<h2>Jolt my wax bed</h2>
 		A pangram, or holoalphabetic sentence, includes every letter of the alphabet at least once.
 		The most challenging pangrams are the ones with the fewest letters. Here are a few of the best.
 		<ol>
@@ -75,8 +70,9 @@
 	<br>
 
 	<a id="a3"></a>
-	<article style="font-size:15px;"><b>Feb 21, 2013</b>
-		<h2 style="font-family:fantasy;">A very bad quack might jinx zippy fowls.</h2> 
+	<article>
+	<p class="datep">Feb 21, 2013</p>
+		<h2>A very bad quack might jinx zippy fowls.</h2> 
 		 Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox.
 		 The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight for a quick jump. 
 		 Joaquin Phoenix was gazed by MTV for luck. A wizard’s job is to vex chumps quickly in fog. 
@@ -88,8 +84,9 @@
 	
 	<br>
 	<a id="a4"></a>
-	<article style="font-size:15px;"><b>Feb 27, 2013</b>
-	<h2 style="font-family:fantasy;">Flummoxed by job</h2>
+	<article>
+	<p class="datep">Feb 27, 2013</p>
+	<h2>Flummoxed by job</h2>
 	A framework is a standardized set of concepts, practices and criteria for dealing with a common type of problem, 
 	which can be used as a reference to help us approach and resolve new problems of a similar nature.
 	In the world of web design, to give a more straightforward definition, a framework is defined as a 
@@ -99,9 +96,9 @@
 </section>
  
 </div>
-<hr>
+<hr style="clear:both">
 <footer>
-<p>&copy;<strong>Super Blog 2013</strong></p>
+<p class="datep">&copy;Super Blog 2013 </p>
 </footer>
 </div>
 </body>

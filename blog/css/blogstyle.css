@@ -1,7 +1,19 @@
 #container
 {
-width:90%;
-margin-left:50px;
+width:100%;
+}
+
+body{
+	margin:0px;
+	padding:0px;
+	font-family: 'newfont';
+}
+
+@font-face {
+    font-family: 'newfont';
+    src:url('type/League-Gothic/LeagueGothic-CondensedRegular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 nav{
@@ -41,8 +53,5 @@ font-size:13px;
 font-weight:bold;
 }
 
-h2{
-font-family:fantasy;
-}
 
 

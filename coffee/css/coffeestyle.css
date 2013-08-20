@@ -1,13 +1,26 @@
 .container
 {
-width:80%;
-padding-left:120px;
+width:100%;
+}
+
+body{
+margin:0px;
+padding:0px;
+font-family: 'newfont';
+}
+
+@font-face {
+    font-family: 'newfont';
+    src:url('type/League-Gothic/LeagueGothic-CondensedItalics.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 #headerimg
 {
-background-image:url('/coffee/Images/beans.jpg');
+background:url('/coffee/Images/beans.jpg') no-repeat top center #000;
 width:100%;
+height:280px;
 }
 
 .logoimg
@@ -19,27 +32,26 @@ display:block;
 
 .headernav
 {
+margin:20px 0px 20px 0px;
 text-align:center;
 background-color:#210808;
 font-size:20px;
 color:White;
 }
 
+
 a
 {
 color:white;
+text-decoration:none;
 }
 
-p
-{
-font-family:"Georgia";
-}
 
 .col1
 {
 width:40%; 
 float:left;
-margin:20px 20px;
+margin:20px 0px 20px 50px;
 }
 
 #footerarea

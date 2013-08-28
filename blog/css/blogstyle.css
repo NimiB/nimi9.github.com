@@ -1,26 +1,27 @@
 #container
 {
-width:100%;
+	width:100%;
+	margin: auto;
 }
 
-body{
-	margin:0px;
+body
+{
+	margin:auto;
 	padding:0px;
 	font-family: 'newfont';
 }
 
-@font-face {
+@font-face 
+{
     font-family: 'newfont';
     src:url('type/League-Gothic/LeagueGothic-CondensedRegular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
-nav{
-text-align:right;
-}
 
-a{
+a
+{
 color:black;
 text-decoration:none;
 }
@@ -28,30 +29,55 @@ text-decoration:none;
 a:hover
 {color:blue;}
 
-#sidebar{
+#sidebar
+{
 float:left;
 width:30%;
 margin:20px;
 }
 
-ul{
+#navul
+{
 list-style-type:none;
+text-align:right;
 }
 
-#blogcontent{
+#navul li
+{
+display: inline;
+}
+
+#blogcontent
+{
 float:left;
 width:65%;
 }
 
-article{
+article
+{
 font-size:15px;
 }
 
 .datep
 {
 font-size:13px;
-font-weight:bold;
+font-weight:normal;
+margin: 0px;
 }
 
+li
+{
+	margin: 5px 0px 5px 0px;
+	padding:5px 0px 5px 0px;
+	list-style-type: none;
+}
 
+h2
+{
+margin-top: 0px;
+}
 
+h1
+{
+	margin: 0px;
+}

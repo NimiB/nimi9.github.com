@@ -16,6 +16,13 @@ font-family: 'newfont';
     font-style: normal;
 }
 
+@media only screen and (min-width: 320px)
+{
+	color: red;
+	width: 100%
+
+}
+
 #headerimg
 {
 background:url('/coffee/Images/beans.jpg') no-repeat top center #000;

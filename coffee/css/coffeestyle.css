@@ -16,16 +16,15 @@ font-family: 'newfont';
     font-style: normal;
 }
 
-@media only screen and (min-width: 320px)
+@media screen and (max-width: 320px)
 {
-	color: red;
-	width: 100%;
-
-.col1
-{
-width:100%; 
-text-align: center;
-}
+	
+	.col1
+	{
+		width:60%; 
+		text-align: left;
+		color: red;
+	}
 
 }
 

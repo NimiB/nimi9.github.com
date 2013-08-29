@@ -19,7 +19,13 @@ font-family: 'newfont';
 @media only screen and (min-width: 320px)
 {
 	color: red;
-	width: 100%
+	width: 100%;
+
+.col1
+{
+width:100%; 
+text-align: center;
+}
 
 }
 
@@ -33,7 +39,8 @@ height:280px;
 .logoimg
 {
 position: relative;
-left: 620px;
+left: 600px;
+
 }
 
 .headernav

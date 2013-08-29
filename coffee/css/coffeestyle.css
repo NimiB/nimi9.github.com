@@ -16,14 +16,15 @@ font-family: 'newfont';
     font-style: normal;
 }
 
-@media screen and (max-width: 320px)
+@media screen and (max-width: 640px)
 {
 	
 	.col1
 	{
-		width:60%; 
+		width:80%; 
 		text-align: left;
 		color: red;
+		clear: both;
 	}
 
 }
@@ -37,8 +38,9 @@ height:280px;
 
 .logoimg
 {
-position: relative;
-left: 600px;
+	position: relative;
+	margin-left: 45%;
+
 
 }
 

@@ -62,7 +62,7 @@ text-align: center;
 margin:20px 0px 20px 50px;
 }
 
-@media screen and (min-width: 640px ) AND ( max-width:960px)
+@media screen and (max-width: 640px )
 {
 	
 	.col1

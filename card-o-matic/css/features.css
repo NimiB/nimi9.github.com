@@ -1,0 +1,81 @@
+.color-choices{
+	width:30px;
+	height:30px;
+	display: inline-block;
+}
+
+#red{
+	background-color: red;
+}
+
+#blue{
+	background-color: blue;
+}
+
+#green{
+	background-color: green;
+}
+
+#yellow{
+	background-color: yellow;
+
+}
+
+#purple{
+	background-color: purple;
+}
+
+.texture-choices{
+	width:75px;
+	height:35px;
+	display: inline-block;
+}
+
+#circles{
+	background-image:url('../images/texture-circles.png');
+}
+
+#cloth{
+	background-image:url('../images/texture-cloth.png');
+}
+
+#paper{
+	background-image:url('../images/texture-paper.png');
+
+}
+
+#swirls{
+	background-image:url('../images/texture-swirls.png');
+}
+
+#message-output{
+	font-family: Georgia;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top:50px;
+    font-size: 25px;
+
+}
+
+#recipient-output{
+	font-family: Georgia;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top:75px;
+    font-size: 25px;
+
+}
+
+#recipient-error{
+	color:red;
+	font-size: 12px;
+}
+
+.stickers_on_card{
+	position: absolute;
+	top:0px;
+	left: 0px;
+	z-index: 999;
+}

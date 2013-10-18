@@ -1,0 +1,39 @@
+#wrapper{
+	width:70%;
+	margin: auto;
+	padding: 0px;
+}
+
+body{
+	font-family: 'Andika', sans-serif;
+}
+
+img{
+	
+	box-shadow: 0 0 1em black;
+	float: left;
+	height: 270px;
+	width: 200px;
+}
+
+#imgspace{
+	width:20%;
+	margin: 5px;
+	padding: 5px;
+	float: left;
+}
+
+#textspace{
+
+	
+	box-shadow: 0 0 1em black;
+	width: 70%;
+	margin: 10px;
+	padding: 5px;
+	float: right;
+
+}
+
+
+
+

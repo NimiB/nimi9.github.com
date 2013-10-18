@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Codagogy Card-o-Matic</title>
+	
+	<link rel="stylesheet" href="css/main.css" type="text/css">
+	<link rel="stylesheet" href="css/features.css" type="text/css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	
+</head>
+
+
+<body>
+
+<div id='wrapper'>
+
+	<h1>Codagogy Card-o-Matic</h1>
+
+	<!-- Left side with all the controls -->
+	<div id='controls'>
+	
+		<!-- Color picker -->
+			<h2>Pick a color</h2>
+			<div id='red' class="color-choices"></div>
+			<div id='blue' class="color-choices"></div>
+			<div id='green' class="color-choices"></div>
+			<div id='yellow' class="color-choices"></div>
+			<div id='purple' class="color-choices"></div>
+		
+			
+					
+		<!-- Texture picture -->
+			<h2>Pick a texture</h2>
+			<div id='circles' class="texture-choices"></div>
+			<div id='cloth' class="texture-choices"></div>
+			<div id='paper' class="texture-choices"></div>
+			<div id='swirls' class="texture-choices"></div>
+			
+						
+		<!-- Message -->	
+			<h2>Pick a message</h2>
+			<input type='radio' name='message' id='happy-birthday'>
+			<label for='happy-birthday'>Happy Birthday</label>
+			<br>
+			
+			<input type='radio' name='message'>
+			<label for='thank-you'>Thank You</label>
+			<br>
+			
+			<input type='radio' name='message'>
+			<label for='i-miss-you'>I Miss You</label>
+			<br>
+			
+			<input type='radio' name='message'>
+			<label for='congratulations'>Congratulations</label>
+			
+		
+		<!-- Recipient -->	
+			<h2>Dear...</h2>
+			<input type='text' id='recipient' maxlenght=14>
+			<div id='recipient-error'>14 characters max</div>	
+			
+			
+		<!-- Sticker picker -->	
+			<h2>Click a sticker to add</h2>
+			<IMG class="stickers" SRC="images/sticker-green-gift.png">
+			<IMG class="stickers" SRC="images/sticker-heart.png">
+			<IMG class="stickers" SRC="images/sticker-star.png">
+			<IMG class="stickers" SRC="images/sticker-yellow-gift.png">
+			
+			
+	</div>
+	
+	<!-- Right side with the live preview -->
+	<div id='preview'>
+	
+		<div id='card-background'>
+			<div id='canvas'>
+				<div id='message-output'></div>
+				<div id='recipient-output'></div>
+			</div>
+		</div>
+		
+		<!-- Buttons -->
+		<input type='button' id='refresh-btn' value='Start over'>
+		<input type='button' id='print-btn' value='Print'>
+	</div>
+	
+</div>
+	
+<script src="js/card-o-matic.js"></script>	
+	
+</body>
+
+</html>

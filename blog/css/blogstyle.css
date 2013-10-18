@@ -58,6 +58,14 @@ article
 font-size:15px;
 }
 
+@media screen and (max-width:320px)
+{
+	article
+	{
+		background-color: green;
+	}
+}
+
 .datep
 {
 font-size:13px;

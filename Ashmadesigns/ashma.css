@@ -1,0 +1,57 @@
+.wrapper{
+	margin: 0 auto;
+	width: 100%;
+}
+
+
+/*wrapper for the home page*/
+#homepage{
+	margin:0 auto;
+	width:100%;
+	background: url("images/bbeads.JPG");
+	background-size: cover;
+}
+
+/*wrapper for about.html page*/
+#abt{
+	margin: 0 auto;
+	width: 80%;
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: #D6D6C2;
+}
+
+/*class for heading - h1 on main page*/
+.homeh1
+{ 
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 12%;
+	font-size: 60px;
+}
+
+/*class for paragraph on home page*/
+.homep{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	/*padding-top: 10px;*/
+	padding-bottom: 10px; 
+}
+
+/*home page links*/
+a{
+	
+	color: #1A3300;
+}
+
+a:hover{
+	color: red;
+}
+
+/*font for header of about.html page */
+.abt{
+	font-size: 40px;
+}
+

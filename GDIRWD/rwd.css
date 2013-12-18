@@ -1,0 +1,236 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.wrap1{
+  width: 100%;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.fix
+{
+  clear:both;
+}
+
+.cat{
+  background: url('images/kit2.jpg') no-repeat;
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  margin-right: 5px;
+  background-size: cover;
+  background-position: center;
+}
+
+p{
+  text-align: center;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.wrapper{
+  width:80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#head
+{
+height:40%;
+background-color:#8affbf;
+border-bottom: 20px solid #7ce5a6;
+padding-top: 40px;
+padding-bottom: 40px;
+
+}
+
+.logo{
+  float: left;
+  background: url('images/logo.png');
+  width: 150px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#hp{
+  font-size: 24px;
+  padding: 0;
+}
+
+nav{
+  float: right;
+  text-align: center;
+  
+}
+
+a{
+  font-size: 20px;
+  /*display: block;*/
+}
+
+.column{
+  /*width: 30%;*/
+  font-size: 16px;
+  text-align: left;
+  
+  float: left;
+  
+}
+
+.kitten{
+  width:140px;
+  height: 140px;
+  border-radius: 70px;
+  margin: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#kit1{
+  background: url('images/kit1.jpg') no-repeat;
+}
+
+#kit2{
+   background: url('images/kit2.jpg') no-repeat;
+}
+
+#kit3{
+  background: url('images/kit3.jpg') no-repeat;
+}
+
+
+@media (max-width: 700px) {
+    h1 {
+      font-size: 50px;
+      background-color: orange;
+
+    }
+    .column {
+      color: purple;
+      font-size: 16px;
+      width: 100%;
+    
+    }
+
+    .logo{
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    nav a{
+     float: none;
+     display: block;
+    }
+
+    nav{
+      float: none;
+      
+    }
+
+    .wrap1{
+      padding: 10px;
+    }
+
+    .cat{
+      width: 200px;
+      height: 200px;
+      background-size: cover;
+      background-position: center;
+    }
+}
+
+@media(min-width: 700px) and (max-width: 800px){
+  .column{
+    width: 48%;
+    color:brown;
+    font-size: 25px;
+    
+  }
+
+  .column:first-child{
+    padding-right: 4%;
+  }
+
+  .column:last-child{
+    width: 100%;
+  }
+
+  .cat{
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+  }
+
+}
+
+@media (min-width: 800px){
+  h1 {
+    font-size: 40px;
+  }
+  .column {
+    color: black;
+    font-size: 20px;
+    width: 30%;
+  
+  }
+
+  .column:not(:last-child){
+    padding-right: 5%;
+  }
+
+
+}
+
+
